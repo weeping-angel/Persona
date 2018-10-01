@@ -67,8 +67,8 @@ your twitter username and Instagram username at left hand side. A Big Juicy Red 
 
 ### Phrases/Quotes corresponding to dominant emotion
 ```
-For Anger : Calm Down.
-For Sadness : Its been a long day, I suppose.
+For Anger : Calm Down. It seems Someone had a bad day.
+For Sadness : Cheer up! Every cloud has a silver lining.
 For Joy : Nice day. isn't it?
 For Tentative : Go with what your heart says.
 For Fear : Don't be scared. Everythings gonna be alright
