@@ -71,7 +71,7 @@ For Anger : Calm Down.
 For Sadness : Its been a long day, I suppose.
 For Joy : Nice day. isn't it?
 For Tentative : Go with what your heart says.
-For Fear : Don't be scare. Everythings gonna be alright
+For Fear : Don't be scared. Everythings gonna be alright
 For Confident : You are looking an inch taller.
 For Analytical : Its good to be analytical.
 ```
