@@ -46,7 +46,7 @@ Now run the flask app to host the website locally. Usually, hosting address is :
 ```
 127.0.0.1:5000
 ```
-!(https://github.com/sanskarjain1997/Persona/tree/master/Screenshots/LoginPage.PNG)
+!(Screenshots/LoginPage.PNG)
 
 Open the broswer (Chrome or Firefox is recommended) and enter the above the address as URL.
 Here, you will get Login page. Enter the details to go to your dashboard. If you are using this
