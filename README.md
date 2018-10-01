@@ -51,7 +51,28 @@ Now run the flask app to host the website locally. Usually, hosting address is :
 Open the broswer (Chrome or Firefox is recommended) and enter the above the address as URL.
 Here, you will get Login page. Enter the details to go to your dashboard. If you are using this
 app for the first time, do registration first. Enter the following address to register as new user:
+
 ```
 127.0.0.1:5000/register
 ```
-Once you get into the dashboard, you can set the time period for analyzing your tweets and instagram posts.
+
+![RegistrationPage](./Screenshots/RegistrationPage.PNG)
+
+
+Once you get into the dashboard, you can set the time period for analyzing your tweets and instagram posts. Also, you can see
+your twitter username and Instagram username at left hand side. A Big juicy red button of "See Suggestions" at mid-bottom and a 
+one-line phrase/quote at right hand side, which is given in accordance to the prominent mood of the user.
+
+![Dashboard](./Screenshots/Dashboard.PNG)
+
+
+## Phrases/Quotes 
+```
+For Anger : Calm Down.
+For Sadness : Its been a long day, I suppose.
+For Joy : Nice day. isn't it?
+For Tentative : Go with what your heart says.
+For Fear : Don't be scare. Everythings gonna be alright
+For Confident : You are looking an inch taller.
+For Analytical : Its good to be analytical.
+```
