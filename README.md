@@ -60,8 +60,7 @@ app for the first time, do registration first. Enter the following address to re
 
 
 Once you get into the dashboard, you can set the time period for analyzing your tweets and instagram posts. Also, you can see
-your twitter username and Instagram username at left hand side. A Big juicy red button of "See Suggestions" at mid-bottom and a 
-one-line phrase/quote at right hand side, which is given in accordance to the prominent mood of the user.
+your twitter username and Instagram username at left hand side. A Big Juicy Red Button, saying "See Suggestions", is at the mid-bottom and a one-line phrase/quote is at right hand side, which is given in accordance to the prominent mood of the user.
 
 ![Dashboard](./Screenshots/Dashboard.PNG)
 
@@ -76,3 +75,7 @@ For Fear : Don't be scare. Everythings gonna be alright
 For Confident : You are looking an inch taller.
 For Analytical : Its good to be analytical.
 ```
+
+When you'll click on the "See Suggestion" button, you will get redirected to our recommendation page. Here, all the Videos, Quotes, Memes, Images, Songs, Articles, Stories which are suitable for the user are listed in a simple format. 
+
+![RecommendationPage](./Screenshots/RecommendationPage.PNG)
