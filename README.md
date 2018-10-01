@@ -1,10 +1,9 @@
 # Persona
 It is the solution of the problem from IBM Hack Challenge - "Help me with my mood".
 In this project, we analyse the tweets and Instagram posts of an user of previous 24 hours or more,
-and perform sentiment analysis using IBM Watson Tone Analyzer. Then we make suggestions/recommendations 
-according to the mood of the person using reinforcement learning to maintain or improve his/her mental health. 
-This is a Social-media Health Analysis and Display Engine (SHADE). Its main aim is to eliminate any
-negative state of mind that might have adverse effect on user's daily life.
+and perform sentiment analysis using IBM Watson Tone Analyzer. Then our algorithm provides media recommendations based on the
+mood of the user to improve his/her mental health. Our algorithm is equipped with reinforcement learning which
+open a path for enhanced customized experience in future access. This is a Social-media Health Analysis and Display Engine (SHADE). Its main aim is to eliminate any negative state of mind that might have adverse effect on user's daily life.
 
 Pre-requisities:
 
