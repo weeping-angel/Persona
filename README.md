@@ -66,7 +66,7 @@ one-line phrase/quote at right hand side, which is given in accordance to the pr
 ![Dashboard](./Screenshots/Dashboard.PNG)
 
 
-## Phrases/Quotes 
+### Phrases/Quotes corresponding to dominant emotion
 ```
 For Anger : Calm Down.
 For Sadness : Its been a long day, I suppose.
