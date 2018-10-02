@@ -12,10 +12,10 @@ import numpy
 import random
 import csv
 
-CONSUMER_KEY = 'kEBZuh53jExPoXec2nzJemVyp'
-CONSUMER_SECRET = 'uVvVVQMYfFBWtqEkiQNe5gKAFFvgFJ7omk2AUOSh91OknyHE76'
-ACCESS_TOKEN = '1044563858239631365-LMExPSXn24FHOZ3p6JFBwdzPb91NhW'
-ACCESS_TOKEN_SECRET = '9aQLjxeDRmq0LUoUUS5aHr5GiZVirRxxggeVFPTfQoMTW'
+CONSUMER_KEY = 'Enter Your Twitter Developer Consumer Key Here'
+CONSUMER_SECRET = 'Enter Your Twitter Developer Consumer Secret Here'
+ACCESS_TOKEN = 'Enter Your Twitter Developer Access Token Here'
+ACCESS_TOKEN_SECRET = 'Enter Your Twitter Developer Access Token Secret Here'
 
 #emotions
 emots = ['motivational','funny','productivity','calm']
