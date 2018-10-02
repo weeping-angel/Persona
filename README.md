@@ -26,7 +26,9 @@ Pre-requisities:
     3. Bootstrap
     4. JavaScript
 
-First install all the required packages by using following commands:
+Steps to Use Persona
+
+1.) First install all the required packages by using following commands:
 
 ```
 pip install --upgrade keras
@@ -41,14 +43,17 @@ pip install --upgrade flask-sqlalchemy
 pip install --upgrade flask-wtf
 pip install --upgrade numpy
 ```
+2.) Generate Keys and Tokens for Twitter app and update 'maal.py' in the project with your own keys and Tokens.
 
-Now run the flask app to host the website locally. Usually, hosting address is : 
+3.) Download and Extract the Repository at your preferred location.
+
+4.) Now run the flask app to host the website locally. Default, hosting address for localhost is : 
 ```
 127.0.0.1:5000
 ```
 ![LoginPage](./Screenshots/LoginPage.PNG)
 
-Open the broswer (Chrome or Firefox is recommended) and enter the above the address as URL.
+5.) Open the broswer (Chrome or Firefox is recommended) and enter the above the address as URL.
 Here, you will get Login page. Enter the details to go to your dashboard. If you are using this
 app for the first time, do registration first. Enter the following address to register as new user:
 
@@ -59,7 +64,7 @@ app for the first time, do registration first. Enter the following address to re
 ![RegistrationPage](./Screenshots/RegistrationPage.PNG)
 
 
-Once you get into the dashboard, you can set the time period for analyzing your tweets and instagram posts. Also, you can see
+7.) Once you get into the dashboard, you can set the time period for analyzing your tweets and instagram posts. Also, you can see
 your twitter username and Instagram username at left hand side. A Big Juicy Red Button, saying "See Suggestions", is at the mid-bottom and a one-line phrase/quote is at right hand side, which is given in accordance to the prominent mood of the user.
 
 
