@@ -1,0 +1,92 @@
+.mood-phrase {
+	margin: 3px auto 3px;
+	float: right;
+	text-shadow: 2px 2px 4px black, 0 0 1.5em black;
+	color: White;
+}
+
+.mm {
+	margin: 3px auto 3px;
+	float: left;
+	text-shadow: 2px 2px 4px black, 0 0 1.5em black;
+	color: White;
+	padding : 3px auto 3px;
+}
+
+@font-face {
+    font-family: battlelines;
+    src: url('battlelines.woff') format('woff');
+}
+
+.form-heading { color:#fff; font-size:40px; font-family: 'battlelines';}
+.panel h2{ color:#444444; font-size:18px; margin:0 0 8px 0;}
+.panel p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}
+
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.inline-list {
+ position:relative;
+ display:inline-block;
+ float:left;
+ _display:inline;
+ /*
+ margin-bottom:-15px;
+ */
+}
+
+.main-div {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  padding: 50px 70px 70px 71px;
+  box-shadow: 10px 10px 5px black, 0 0 1.5em black;
+}
+
+.mm-div {
+  background: transparent none repeat scroll 0 0;
+  border-radius: 2px;
+  margin-left: 0px;
+  margin-top: 5px;
+  max-width: 80%
+  padding: 7px 7px 7px 7px;
+  box-shadow: 10px 10px 5px black, 0 0 1.5em black;
+}
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.login-form  .btn.btn-primary {
+  background: #f0ad4e none repeat scroll 0 0;
+  border-color: #f0ad4e;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+}
+.login-form .btn.btn-primary.reset {
+  background: #ff9900 none repeat scroll 0 0;
+}
+.back { text-align: left; margin-top:10px;}
+.back a {color: #444444; font-size: 13px;text-decoration: none;}
