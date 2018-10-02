@@ -1,0 +1,50 @@
+{% extends "Base.html" %}
+{% block content %}
+<div class="container">
+<h1 class="form-heading">Persona</h1>
+<div class="login-form">
+<div class="main-div">
+    <div class="panel">
+   <h2>Persona Login</h2>
+   <p>Please enter your email and password</p>
+   </div>
+    <form method="POST" action="">
+	
+	{{ form.hidden_tag() }}
+	
+	<div class="form-group">
+		{% if form.email.errors %}
+			{{ form.email(class="form-control is-invalid", placeholder="Email-ID") }}
+			<div class="invalid-feedback">
+				{% for error in form.email.errors %}
+					<span> {{ error }}</span>
+				{% endfor %}
+			</div>
+		{% else %}
+			{{ form.email(class="form-control", placeholder="Email-ID") }}
+		{% endif %}
+	</div>
+	<div class="form-group">
+		{% if form.password.errors %}
+			{{ form.password(class="form-control is-invalid", placeholder="Password") }}
+			<div class="invalid-feedback">
+				{% for error in form.password.errors %}
+					<span> {{ error }}</span>
+				{% endfor %}
+			</div>
+		{% else %}
+			{{ form.password(class="form-control", placeholder="Password") }}
+		{% endif %}
+	</div>
+        <div align="center">
+			{{ form.submit(class="btn btn-default") }}
+		</div>
+    </form>
+	<br/>
+	<div>
+	 <small> New User? <a href="{{ url_for('register') }}">Sign Up</a> </small>
+	</div>
+    </div>
+<p class="botto-text"> Designed by Team Persona</p>
+</div></div></div>
+{% endblock content %}

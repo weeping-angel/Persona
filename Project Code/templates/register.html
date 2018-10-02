@@ -1,0 +1,99 @@
+{% extends "Base.html" %}
+{% block content %}
+	<div class="container">
+	<h1 class="form-heading">Persona</h1>
+	<div class="login-form">
+	<div class="main-div">
+	<div class="panel" > <h2> Join Today </h2> </div>
+	<form method="POST" action="">
+	{{ form.hidden_tag() }}
+			<div class="form-group">
+				{% if form.username.errors %}
+					{{ form.username(class="form-control is-invalid", placeholder="Name") }}
+					<div class="invalid-feedback">
+						{% for error in form.username.errors %}
+							<span> {{ error }}</span>
+						{% endfor %}
+					</div>
+				{% else %}
+					{{ form.username(class="form-control", placeholder="Username") }}
+				{% endif %}
+			</div>
+			<div class="form-group">
+				{% if form.email.errors %}
+					{{ form.email(class="form-control is-invalid", placeholder="Email-ID") }}
+					<div class="invalid-feedback">
+						{% for error in form.email.errors %}
+							<span> {{ error }}</span>
+						{% endfor %}
+					</div>
+				{% else %}
+					{{ form.email(class="form-control", placeholder="Email-ID") }}
+				{% endif %}
+			</div>
+			<div class="form-group">
+				{% if form.password.errors %}
+					{{ form.password(class="form-control is-invalid", placeholder="Password") }}
+					<div class="invalid-feedback">
+						{% for error in form.password.errors %}
+							<span> {{ error }}</span>
+						{% endfor %}
+					</div>
+				{% else %}
+					{{ form.password(class="form-control", placeholder="Password") }}
+				{% endif %}
+			</div>
+			<div class="form-group">
+				{% if form.confirm_password.errors %}
+					{{ form.confirm_password(class="form-control is-invalid", placeholder="Confirm Password") }}
+					<div class="invalid-feedback">
+						{% for error in form.confirm_password.errors %}
+							<span> {{ error }}</span>
+						{% endfor %}
+					</div>
+				{% else %}
+					{{ form.confirm_password(class="form-control", placeholder="Confirm Password") }}
+				{% endif %}
+			</div>
+			<br />
+			<div class="panel"> <h2>Account details</h2> </div>
+			<div class="form-group">
+				{% if form.twitter.errors %}
+					{{ form.twitter(class="form-control is-invalid", placeholder="Twitter Username") }}
+					<div class="invalid-feedback">
+						{% for error in form.twitter.errors %}
+							<span> {{ error }}</span>
+						{% endfor %}
+					</div>
+				{% else %}
+					{{ form.twitter(class="form-control", placeholder="Twitter Username") }}
+				{% endif %}
+			</div>
+			<div class="form-group">
+				{% if form.instagram.errors %}
+					{{ form.instagram(class="form-control is-invalid", placeholder="Instagram Username") }}
+					<div class="invalid-feedback">
+						{% for error in form.instagram.errors %}
+							<span> {{ error }}</span>
+						{% endfor %}
+					</div>
+				{% else %}
+					{{ form.instagram(class="form-control", placeholder="Instagram Username") }}
+				{% endif %}
+			</div>
+		</fieldset>
+		<br />
+		<div align="center">
+			{{ form.submit(class="btn btn-default") }}
+		</div>
+	</form>
+	<br />
+	<div align="center">
+		<small>
+			Already Have an account? <a href="{{ url_for('home')}}"> Sign In </a>
+		</small>
+	</div>
+	</div>
+	<p class="botto-text"> Designed by Team Persona</p>	
+	</div></div>
+{% endblock content %}

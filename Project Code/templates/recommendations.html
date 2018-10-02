@@ -1,0 +1,41 @@
+{% extends "Base.html" %}
+{% block nav %}
+{% endblock nav %}
+{% block content %}
+	<div class="container">
+		<h1 class="form-heading"> Recommendations </h1>
+		
+		<br/><br/><h3 class="mm"> Videos </h3><br/><br/>
+		<div>
+			{% for video in videos %}
+				<iframe width=320px height=180px src="{{ video }}" allow="autoplay; encrypted-media" style="box-shadow: 10px 10px 5px black, 0 0 1.5em black;" allowfullscreen>
+				</iframe>
+			{% endfor %}
+		</div>
+		
+		<br/><br/><h3 class="mm"> Images </h3><br/><br/>
+		<div class="inline-list">
+			{% for image in images %}
+				<img width="30%" max-width="30%" height="auto" src="/static/{{ image }}" style="box-shadow: 10px 10px 5px black, 0 0 1.5em black;"></img>
+			{% endfor %}
+		</div>
+		
+		<br/><br/><h3 class="mm" style="margin-left: 30px"> Songs </h3><br/><br/>
+		<div>
+			{% for song in songs %}
+				  <iframe src="{{ song }}" scrolling="no" width="100%" height="252" scrollbars="no" frameborder="0"></iframe>
+			{% endfor %}
+		</div>
+		
+		<br/><br/><h3 class="mm" style="margin-left: 30px"> Articles </h3><br/><br/>
+		<div>
+			{% for article in articles %}
+				<div class="main-div" style="float:right; margin-right:30px">
+					<a href="{{ article }}">{{ article }}</a>
+				</div>
+			{% endfor %}
+		</div>
+	<script>
+	</script>
+	</div>
+{% endblock content %}

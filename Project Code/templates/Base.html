@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% if title %}
+		<title> Persona - {{ title }} </title>
+	{% else %}
+		<title> Persona </title>
+	{% endif %}
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+	<style>
+		body{ background-image: url( {{ url_for('static', filename='Images/Backgrounds/abstract-architecture-background-194096.jpg') }} ); background-repeat:no-repeat; background-position:center; background-size:cover; padding:10px;}
+	</style>
+</head>
+<body>	
+	<div> 
+		{% with messages = get_flashed_messages(with_categories=true) %}
+			{% if messages %}
+				{% for category, message in messages %}
+					<div class="alert alert-{{ category }}">
+						{{ message }}
+					</div>
+				{% endfor %}
+			{% endif %}
+		{% endwith %}
+	</div>
+	<div>
+		{% block content %}{% endblock %}
+	</div>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>
