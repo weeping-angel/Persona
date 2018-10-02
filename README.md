@@ -62,6 +62,8 @@ app for the first time, do registration first. Enter the following address to re
 Once you get into the dashboard, you can set the time period for analyzing your tweets and instagram posts. Also, you can see
 your twitter username and Instagram username at left hand side. A Big Juicy Red Button, saying "See Suggestions", is at the mid-bottom and a one-line phrase/quote is at right hand side, which is given in accordance to the prominent mood of the user.
 
+
+
 ![Dashboard](./Screenshots/Dashboard.PNG)
 
 
@@ -79,3 +81,17 @@ For Analytical : Its good to be analytical.
 When you'll click on the "See Suggestion" button, you will get redirected to our recommendation page. Here, all the Videos, Quotes, Memes, Images, Songs, Articles, Stories which are suitable for the user are listed in a simple format. 
 
 ![RecommendationPage](./Screenshots/RecommendationPage.PNG)
+
+There is also a Service called "watcher" which is made by us. This can be run by simply entering the following command:
+
+```
+python watcher.py
+```
+This service can run in background on a server, analyzing mood of users, stored in the database of the site to see whether any user shows some critical nature. If this is the case, personalized emails are sent to that user with recommendations.
+
+Youtube Link of Persona's usage is :
+
+```
+
+```
+
