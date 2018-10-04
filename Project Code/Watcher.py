@@ -9,8 +9,7 @@ threshold = 0.5
 Flag = True
 while True:
 	l=datetime.datetime.now()
-	if l.hour == 18 and Flag: 
-		print('mai chalu hu')
+	if l.hour == 18 and Flag: # Run everyday at 18:00
 		for user in users:
 			email = user.email
 			twitter = user.twitter
